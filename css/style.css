@@ -1,0 +1,137 @@
+/*----------------------------Top header start--------------------------*/
+.top{
+    background-color: #285430 !important;
+}
+.btn1{
+    background-color: #fff !important;
+    color:#285430 !important;
+    font-size: 14px !important;
+    transition: .7s !important;
+}
+.btn1:hover{
+    background-color: #285430 !important;
+    color:#fff !important;
+    border: 1px solid #fff;
+}
+.hover-social{
+    transition: 1s !important;
+}
+.hover-social:hover{
+    color:#33b304 !important;
+}
+.hovr-logo{
+    transition: 1s !important;
+} 
+.hovr-logo:hover{
+    transform: rotate(90deg);
+}
+@media screen and (max-width:576px) {
+    .mobil{
+        display: none !important;
+    }
+}
+/*----------------------------Top header end--------------------------*/
+/*----------------------------------header menu start-----------------*/
+.header-navbar{
+    background-color: #A4BE7B;
+}
+.menu{
+    color:#285430 !important;
+}
+.menu:hover{
+    transform: scale(1.1);
+    color:#33b304  !important;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+/*----------------------------------header menu start end-----------------*/
+/*--------------------------------------slider section start ---------------------*/
+.carousel-item{
+    height: 70vh;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: fill;
+}
+.parahover:hover{
+    font-weight: bold;
+    color:#000;
+    font-size: 15px;
+}
+.btn2{
+    color: #fff !important;
+    background-color: #285430 !important;
+    transition: .5s !important;
+}
+.btn2:hover{
+    background-color: #fff !important ;
+    color:#285430 !important;
+    border: 1px solid #285430 !important;
+}
+/*--------------------------------------slider section end ---------------------*/
+/*-----------------------About section start--------------------------------*/
+.about-img{
+    min-height: 250px;
+}
+.about-img{
+    height: 100%;
+    object-fit: cover;
+}
+.about-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.about-heading{
+    color:#285430;
+    font-weight: 700;
+
+}
+.about-tree{
+    color:#379237;
+}
+.about-tree-paragraph{
+    color:#379237
+}
+@media screen and(max-width:1024px) {
+    .about-content h3{
+        margin-left:0px !important;
+    }
+    .about-tree-paragraph{
+        margin-left: 0px !important;
+    }
+}
+@media screen and(max-width:768px){
+    .about-content{
+        padding-left:0px !important;
+    }
+    .about-tree-paragraph{
+        margin: 0px !important;
+    }
+}
+
+/*-----------------------About section end--------------------------------*/
+.card{
+    width: 24%;
+}
+.img-card{
+    width: 100% !important;
+    height: 100% !important;
+}
+.img-card img{
+    height: 100%;
+    width: 100%;
+}
+/*--------------------------------------------------------*/
+footer{
+    background-color: #285430 !important;
+}
